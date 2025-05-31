@@ -1,6 +1,6 @@
-# Gemini MCP Server Enhanced v2.0
+# Gemini MCP Server Enhanced v2.2
 
-A powerful Model Context Protocol (MCP) server that provides comprehensive access to Google's Gemini 1.5 Pro AI capabilities, including text generation, image analysis, code generation, chat conversations, and more. Powered by the most capable Gemini model with 2M token context window.
+A powerful Model Context Protocol (MCP) server that provides comprehensive access to Google's Gemini 2.0 Flash Experimental AI capabilities, including text generation, image analysis, code generation, chat conversations, and more. Powered by the latest Gemini 2.0 model with advanced reasoning capabilities.
 
 ## Features
 
@@ -39,6 +39,24 @@ A powerful Model Context Protocol (MCP) server that provides comprehensive acces
 ### 🛡️ Safety & Moderation
 - **check_content_safety** - Analyze content for safety issues across multiple categories
 - **moderate_text** - Filter and clean inappropriate content with different moderation levels
+
+## Installation
+
+1. **Clone the repository**
+   ```bash
+   git clone https://github.com/ivangrynenko/mcp-server-gemini.git
+   cd mcp-server-gemini
+   ```
+
+2. **Install dependencies**
+   ```bash
+   npm install
+   ```
+
+3. **Build the project**
+   ```bash
+   npm run build
+   ```
 
 ## Quick Start
 
