@@ -1,6 +1,6 @@
-# Gemini MCP Server Enhanced v2.2
+# Gemini MCP Server Enhanced v2.5
 
-A powerful Model Context Protocol (MCP) server that provides comprehensive access to Google's Gemini 2.0 Flash Experimental AI capabilities, including text generation, image analysis, code generation, chat conversations, and more. Powered by the latest Gemini 2.0 model with advanced reasoning capabilities.
+A powerful Model Context Protocol (MCP) server that provides comprehensive access to Google's Gemini 2.5 Pro Preview AI capabilities, including text generation, image analysis, code generation, chat conversations, and more. Powered by the most advanced Gemini 2.5 Pro model with thinking capabilities and 1M token context window (2M coming soon).
 
 ## Features
 

@@ -36,8 +36,8 @@ class GeminiMCPServer {
 
   constructor(apiKey: string) {
     this.genAI = new GoogleGenerativeAI(apiKey);
-    this.model = this.genAI.getGenerativeModel({ model: 'gemini-2.0-flash-exp' });
-    this.visionModel = this.genAI.getGenerativeModel({ model: 'gemini-2.0-flash-exp' });
+    this.model = this.genAI.getGenerativeModel({ model: 'gemini-2.5-pro-preview-05-06' });
+    this.visionModel = this.genAI.getGenerativeModel({ model: 'gemini-2.5-pro-preview-05-06' });
     
     // Set up stdio communication
     this.rl = readline.createInterface({
@@ -116,8 +116,8 @@ class GeminiMCPServer {
       result: {
         protocolVersion: '2024-11-05',
         serverInfo: {
-          name: 'gemini-2-mcp-server',
-          version: '2.2.0'
+          name: 'gemini-2.5-pro-mcp-server',
+          version: '2.5.0'
         },
         capabilities: {
           tools: {}

@@ -5,7 +5,7 @@ This is a Model Context Protocol (MCP) server implementation for Google's Gemini
 
 ## Core Architecture
 - **Transport**: stdio (required by Claude Desktop)
-- **Model**: Gemini 2.0 Flash Experimental (latest model with advanced capabilities)
+- **Model**: Gemini 2.5 Pro Preview (gemini-2.5-pro-preview-05-06) - most advanced model with thinking capabilities
 - **Protocol**: MCP 2024-11-05 with JSON-RPC 2.0
 - **Implementation**: TypeScript with ES modules
 
@@ -83,12 +83,13 @@ This is a Model Context Protocol (MCP) server implementation for Google's Gemini
 - Multiple images for comparison (2-5 images)
 
 ## Important Notes
-- Never use 'gemini-pro' model (deprecated) - always use 'gemini-2.0-flash-exp'
+- Model: `gemini-2.5-pro-preview-05-06` (Gemini 2.5 Pro Preview)
 - API key must be set as GEMINI_API_KEY environment variable
 - Restart Claude Desktop after configuration changes
 - All methods return content array with type 'text'
-- Gemini 2.0 Flash Experimental includes advanced reasoning capabilities
-- This is an experimental model with cutting-edge features
+- Gemini 2.5 Pro includes thinking capabilities for enhanced reasoning
+- 1M token context window (2M coming soon)
+- This is a preview model with the most advanced features
 
 ## Testing
 When testing new features:
